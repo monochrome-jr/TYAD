@@ -1,18 +1,13 @@
 function get_data_from_sheet(sheet) {
   
-  // get last row
   var last_row = sheet.getLastRow();
   
-  // get last column
   var last_column = sheet.getLastColumn();
   
-  // get range
   var range = sheet.getRange(3, 1, last_row, last_column);
   
-  // get data
   var data = range.getValues();
   
-  // return the data
   return data;
   
 }
