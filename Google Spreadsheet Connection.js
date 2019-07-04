@@ -27,7 +27,7 @@ function update() {
     
     for (var rowCount = 0; rowCount < data.length - 2; rowCount++){
       
-     summary_sheet.appendRow([sheets[sheet_name].getName()].concat(data[rowCount]));
+     summary_sheet.appendRow( [ sheets[sheet_name].getName() ].concat( data[rowCount] ) );
       
     } 
     
