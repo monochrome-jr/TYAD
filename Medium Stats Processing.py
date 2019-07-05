@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from itertools import chain
 import pandas as pd
-import numpy as np
 import urllib.parse
+import numpy as np
 import requests
 import re
 import os
