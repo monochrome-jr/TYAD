@@ -222,7 +222,7 @@ figure = make_scatter_plot(data, x='閱讀文章所需時間', y='閱畢比例',
 iplot(figure)
 
 
-# create interactive scatter plot with scalable points
+# create interactive scatter plot with scalable point
 figure = make_scatter_plot(data, x='閱讀文章所需時間', y='瀏覽人數', ylog=True,
                            scale='閱畢比例', sizeref=0.2)
 iplot(figure)
